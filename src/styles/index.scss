@@ -1,0 +1,29 @@
+@import "typography";
+@import "spacing";
+@import "colors";
+@import "layout";
+
+*, *:after, *:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfaff;
+}
+
+main {
+  position: relative;
+}
+
+#tooltip {
+  position: absolute;
+
+  padding: 10px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0;
+  border-radius: 8px;
+  pointer-events: none;
+}
